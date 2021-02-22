@@ -1,2 +1,2 @@
 # Identifying-Manga-with-Convolutional-Neural-Networks
-Training a CNN to identify a random page of manga as either Bleach or Naruto
+Training a CNN to identify the author of a random page of manga
