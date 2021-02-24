@@ -1,2 +1,6 @@
 # Identifying-Manga-with-Convolutional-Neural-Networks
-Training a CNN to identify the author of a random page of manga
+Convolutional neural networks is one of the most established methods in deep learning and is powerful for computer vision tasks. One of the more startling capabilities of CNNs is their ability to identify artists based on a dataset of a their works. Humans have heuristics to rely on such as artstyle or knowledge of characters and settings when identifying which artist a work belongs to. Long-running manga like Bleach and Naruto consists of tens of thousands of pages, each of which could be treated an image file. This convenience thus motivates the task of training a neural network with manga pages to see if it could identify features that would allow it to link an individual page to its manga series. 
+
+In this project I first create a basic model with 3 convolutional layers. Then I will explore methods to combat overfitting if it occurs, such as expanding our training dataset with image augmentation and regularizing with dropout. Finally, I leverage a pre-trained model for transfer learning with feature extraction and fine-tuning. One of the remarkable abilities of CNNs is the ability to repurpose one trained for another task to fit the characteristics of your dataset. 
+
+Ultimately I am able to achieve a model that can link a random page of manga to its series with 95% accuracy.
